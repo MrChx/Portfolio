@@ -1,16 +1,18 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-const fromEmail = process.env.FROM_EMAIL;
+// Langsung masukkan API key dan email pengirim
+const resend = new Resend("re_9ZX9RH5W_DevjKDq3ExEfsQsFMZwGcFhm");
+const fromEmail = "onboarding@resend.dev";
 
-export async function POST(req, res) {
-  const { email, subject, message } = await req.json();
-  console.log(email, subject, message);
+export async function POST(req) {
   try {
+    const { email, subject, message } = await req.json();
+    console.log(email, subject, message);
+
     const data = await resend.emails.send({
-      from: ["onboarding@resend.dev"],
-      to: ["Achaqilal407@gmail.com"],
+      from: fromEmail, 
+      to: ["achaqilal407@gmail.com"], 
       subject: subject,
       react: (
         <>
@@ -21,8 +23,10 @@ export async function POST(req, res) {
         </>
       ),
     });
-    return NextResponse.json(data);
+
+    return NextResponse.json(data); 
   } catch (error) {
-    return NextResponse.json({ error });
+    console.error("Error sending email:", error);
+    return NextResponse.json({ error: error.message || "Failed to send email" });
   }
 }
