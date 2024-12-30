@@ -51,10 +51,10 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
-        </p>
+          Here are my github and linkedin, please visit if you want to get more
+          information and don&apos;t forget to contact me via email via the following
+          contact column
+        </p>        
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/MrChx">
             <Image src={GithubIcon} alt="Github Icon" />
@@ -66,17 +66,15 @@ const EmailSection = () => {
       </div>
       <div>
         {emailSubmitted ? (
-          <p className="text-green-500 text-sm mt-2">
-            Email sent success
-          </p>
+          <p className="text-green-500 text-sm mt-2">Email sent success</p>
         ) : (
           <form className="flex flex-col" onSubmit={handleSubmit}>
-            <div className="mb-6">
+            {/* <div className="mb-6">
               <label
                 htmlFor="email"
                 className="text-white block mb-2 text-sm font-medium"
               >
-                Your email
+                Your name
               </label>
               <input
                 name="email"
@@ -84,15 +82,15 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="examplename"
               />
-            </div>
+            </div> */}
             <div className="mb-6">
               <label
                 htmlFor="subject"
                 className="text-white block text-sm mb-2 font-medium"
               >
-                Subject
+                Your email
               </label>
               <input
                 name="subject"
@@ -100,7 +98,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="example@gmail.com"
               />
             </div>
             <div className="mb-6">

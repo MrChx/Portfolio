@@ -7,57 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Gorontalo Satu Data",
+    description: "Create a restfull and documentation API for web and applications that will be used by government agencies in Gorontalo, Indonesia",
+    image: "/images/projects/GSD.jpg",
+    tag: ["All", "Laravel"],
+    gitUrl: "http://36.67.194.180/backend/api/documentation",
+    previewUrl: "https://www.canva.com/design/DAGaAUHkSQ4/mFcHkuWGAoZCOPrG23ggEg/edit?utm_content=DAGaAUHkSQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "UniShop",
+    description: "campus canteen web-based academic project created using fullstack laravel and filament as cms",
+    image: "/images/projects/unishop2.png",
+    tag: ["All", "Laravel"],
+    gitUrl: "https://github.com/MrChx/UniShop",
+    previewUrl: "https://dbdiagram.io/d/UnisanShop-67302719e9daa85acae7a2f8",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Search Hotel",
+    description: "create an API for a hotel search website in Sulawesi using Laravel and MySql as a database, as well integrating APIs from Twilio and Sulawesi maps",
+    image: "/images/projects/hotel.png",
+    tag: ["All", "Laravel"],
+    gitUrl: "https://github.com/MrChx/Api-Hotel",
+    previewUrl: "https://dbdiagram.io/d/Hotel-ERD-67727bfc5406798ef7eb4da6",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "E-commerce",
+    description: "creating an API for web-based e-commerce using Express and MongoDB with midtrans integration",
+    image: "/images/projects/ecommerce.png",
+    tag: ["All", "Express"],
+    gitUrl: "https://github.com/MrChx/Ecommerce",
+    previewUrl: "https://documenter.getpostman.com/view/38348317/2sAYJ6CKyN",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Blog API",
+    description: "make restfull API website blog for documentation using Express dan MongoDB",
+    image: "/images/projects/blog.png",
+    tag: ["All", "Express"],
+    gitUrl: "",
+    previewUrl: "",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Sensor",
+    description: "Practice creating hand, face and expression sensors in python with open-cv",
+    image: "/images/projects/sensor.png",
+    tag: ["All"],
+    gitUrl: "https://github.com/MrChx/Sensor",
+    previewUrl: "https://github.com/MrChx/Sensor/blob/main/README.md",
   },
 ];
 
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Laravel"
+          isSelected={tag === "Laravel"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Express"
+          isSelected={tag === "Express"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
