@@ -39,7 +39,7 @@ const TAB_DATA = [
         <li>Python for Data Science</li>
         <li>Web Development for career opportunity</li>
         <li>Machine Learning Kit</li>
-        <li>Magang Bersertifikat Angkatan 7</li>
+        <li>MSIB Batch 7</li>
         <li>Backend Developer Talent Scouting Academy Digital Talent Scholarship</li>
       </ul>
     ),
