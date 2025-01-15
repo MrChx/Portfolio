@@ -27,6 +27,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Google Developer Student Club</li>
         <li>MSIB Batch 7 at TSA Kominfo</li>
+        <li>Network Operations in Divison HD at Telkom</li>
       </ul>
     ),
   },
