@@ -17,7 +17,7 @@ const achievementsList = [
   },
   {
     metric: "Repositories",
-    value: "13",
+    value: "17",
   },
   {
     metric: "Awards",
@@ -25,7 +25,7 @@ const achievementsList = [
   },
   {
     metric: "Experience",
-    value: "3",
+    value: "4",
   },
 ];
 

@@ -15,8 +15,10 @@ const TAB_DATA = [
         <li>Postgre</li>
         <li>Express</li>
         <li>Postman</li>
+        <li>Go (Gin)</li>
         <li>MySql</li>
         <li>Swagger</li>
+        <li>Docker</li>
       </ul>
     ),
   },
@@ -26,8 +28,9 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Google Developer Student Club</li>
-        <li>MSIB Batch 7 at TSA Kominfo</li>
-        <li>Network Operations in Divison HD at Telkom</li>
+        <li>MSIB Batch 7 at TSA Kominfo (Backend Developer)</li>
+        <li>Backend Developer in Divison HD at Telkom</li>
+        <li>Software Engineer Associate (Backend) at Magna Partners</li>
       </ul>
     ),
   },
@@ -42,6 +45,7 @@ const TAB_DATA = [
         <li>Machine Learning Kit</li>
         <li>MSIB Batch 7</li>
         <li>Backend Developer Talent Scouting Academy Digital Talent Scholarship</li>
+        <li>Backend Developer in Division HelpDesk at Telkom Gorontalo</li>
       </ul>
     ),
   },
@@ -64,7 +68,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I’m a 5th-semester Informatics Engineering student and a passionate software developer focusing on backend development.
+          I’m a 6th-semester Informatics Engineering student and a passionate software developer focusing on backend development.
           I enjoy managing business logic, creating rest APIs, documentation API, and managing databases. I like learning new things and implementing my skills through internships and freelance.
           The following are the skills, experience and certificates that I have. You can also see it on my linkedin 
           </p>

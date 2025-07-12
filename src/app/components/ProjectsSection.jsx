@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Blog API",
-    description: "make restfull API website blog for documentation using Express dan MongoDB",
+    description: "Make restfull API website blog for documentation using Express dan MongoDB",
     image: "/images/projects/blog.png",
     tag: ["All", "Express"],
     gitUrl: "https://github.com/MrChx/Api-Blog",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "E-commerce",
-    description: "creating an API for web-based e-commerce using Express and MongoDB with midtrans integration",
+    description: "Creating an API for web-based e-commerce using Express and MongoDB with midtrans integration",
     image: "/images/projects/ecommerce.png",
     tag: ["All", "Express"],
     gitUrl: "https://github.com/MrChx/Ecommerce",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "UniShop",
-    description: "campus canteen web-based academic project created using fullstack laravel and filament as cms",
+    description: "Campus canteen web-based academic project created using fullstack laravel and filament as cms",
     image: "/images/projects/unishop2.png",
     tag: ["All", "Laravel"],
     gitUrl: "https://github.com/MrChx/UniShop",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Search Hotel",
-    description: "create an API for a hotel search website in Sulawesi using Laravel and MySql as a database, as well integrating APIs from Twilio and Sulawesi maps",
+    description: "Create an API for a hotel search website in Sulawesi using Laravel and MySql as a database, as well integrating APIs from Twilio and Sulawesi maps",
     image: "/images/projects/hotel.png",
     tag: ["All", "Laravel"],
     gitUrl: "https://github.com/MrChx/Api-Hotel",
@@ -52,8 +52,26 @@ const projectsData = [
   },
   {
     id: 6,
+    title: "Bot Digital (Telegram)",
+    description: "create a bot for use by field technicians in carrying out telegram-based network installation operations along with a web to manage user data for technicians who use the bot.",
+    image: "/images/projects/telkom.png",
+    tag: ["All"],
+    gitUrl: "https://github.com/MrChx/Bot-Telkom",
+    previewUrl: "https://t.me/auth_telkom_bot",
+  },
+  {
+    id: 7,
+    title: "Sidra Playstation",
+    description: "Playstation rental website for transactions, bookings and consultations about playing digitally",
+    image: "/images/projects/rental.png",
+    tag: ["All"],
+    gitUrl: "https://github.com/MrChx/Sidra-Playstation",
+    previewUrl: "https://sidra-playstation.vercel.app/",
+  },
+  {
+    id: 8,
     title: "Sensor",
-    description: "Practice creating hand, face and expression sensors in python with open-cv",
+    description: "Practice making hand, face, and expression sensors in python with open-cv (this is a college assignment)",
     image: "/images/projects/sensor.png",
     tag: ["All"],
     gitUrl: "https://github.com/MrChx/Sensor",
